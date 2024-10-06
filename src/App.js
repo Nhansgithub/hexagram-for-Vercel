@@ -7,7 +7,7 @@ import React, { useState } from 'react';
      const [preliminaryResult, setPreliminaryResult] = useState('');
      const handleSubmit = async (data) => {
       try {
-        const response = await fetch('/api/fortune', {
+        const response = await fetch('/api/fortune.js', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
